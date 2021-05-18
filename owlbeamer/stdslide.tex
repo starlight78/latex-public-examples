@@ -1,0 +1,16 @@
+\begin{frame}{Frame Title}
+    First line (without itemize)
+    \pause
+    \begin{slimcol}
+    \begin{itemize}[<+->]\color{darkgray}
+        \item \color<.>{white} First item in environment itemize
+        \item \color<.>{white} Second item in environment itemize
+        \begin{itemize}[<+->]\color{darkgray}
+            \item \color<.>{white} This is a sub item from second item
+            \item \color<.>{white} This is another subitem of second item
+        \end{itemize}
+        \item \color<.>{white} This is the third item
+    \end{itemize}
+    \end{slimcol}
+\end{frame}
+
